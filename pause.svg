@@ -1,0 +1,8 @@
+<svg class="pause-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="80" height="80">
+  <!-- White circle background -->
+  <circle cx="320" cy="320" r="256" fill="white"/>
+
+  <!-- Shorter Pause bars -->
+  <rect x="230" y="214" width="60" height="220" fill="black" rx="8" ry="8"/>
+  <rect x="350" y="214" width="60" height="220" fill="black" rx="8" ry="8"/>
+</svg>

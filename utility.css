@@ -1,0 +1,101 @@
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.border {
+    border: 2px solid red;
+}
+
+.margin-5 {
+    margin: 5px;
+}
+
+.border-radius-10 {
+    border-radius: 10px;
+}
+
+.border-radius-5 {
+    border-radius: 5px;
+}
+
+.quicksand-extralight {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+
+
+.flex-column {
+    flex-direction: column;
+}
+
+
+.vend-sans-new {
+  font-family: sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.background-white {
+    background-color: white;
+}
+
+.background-black {
+    background-color: black;
+}
+
+.box-size-box {
+    box-sizing: border-box;
+}
+
+.border-none {
+    border: none;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.green-filter {
+  filter: invert(64%) sepia(78%) saturate(355%) hue-rotate(78deg) brightness(94%) contrast(90%);
+  transition: filter 0.3s ease;
+}
+
+.width-10 {
+    width: 10px;
+    height: 10px;
+}
+
+.no-selection::selection {
+  background-color: none; /* Sets the highlight color to yellow */
+  color: black; 
+}
+
+/* For Firefox compatibility */
+.no-selection::-moz-selection {
+  background-color: none;
+  color: black;
+}
