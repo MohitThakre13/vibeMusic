@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: wheat;
+  background-color: black;
 }
 
 
@@ -1043,6 +1043,8 @@ img::-moz-selection {
     .install > button {
       display: none;
     }
+
+
 }
 
  @media screen and (max-width: 1083px) {
@@ -1112,6 +1114,16 @@ img::-moz-selection {
 
     .check {
       display: none;
+    }
+
+
+    
+    .left {
+      height: 72vh
+    }
+
+    .mid {
+      height: 72vh
     }
 
 }
