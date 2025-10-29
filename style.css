@@ -1119,11 +1119,13 @@ img::-moz-selection {
 
     
     .left {
-      height: 72vh
+      height: 72vh;
+      z-index: 2;
     }
 
     .mid {
-      height: 72vh
+      height: 72vh;
+      z-index: 2;
     }
 
 }
