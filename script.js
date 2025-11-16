@@ -43,7 +43,7 @@ const state = {
     } else {
       // fade in and play
       videoDiv.style.visibility = "visible"; 
-      video.src = `${value}.mp4`;
+      video.src = `https://ntshyhpmyuxbfmszoufa.supabase.co/storage/v1/object/public/Videos/${value}.mp4`;
       videoDiv.classList.add("show");
       vidStat.style.filter = "invert(50%) sepia(100%) saturate(6000%) hue-rotate(95deg) brightness(110%) contrast(90%)";
       video.play();
